@@ -2,7 +2,8 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/fundamentals">Fundamentals</router-link> | 
-    <router-link to="/communication">communication</router-link>
+    <router-link to="/communication">communication</router-link> |
+    <router-link to="/store">Vuex</router-link>
   </nav>
   <router-view/>
 </template>
