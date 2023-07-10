@@ -1,15 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+
+  <FundamentsCompomnetn/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+
+import FundamentsCompomnetn from './components/FundamentsCompomnetn.vue';
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    
+    FundamentsCompomnetn
+    
   }
 }
 </script>
